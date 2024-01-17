@@ -2566,7 +2566,11 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-	}
+		-webkit-border-radius: 0.25em;
+		-moz-border-radius: 0.25em;
+		-ms-border-radius: 0.25em;
+		-o-border-radius: 0.25em;
+}
 
 		.image img {
 			border-radius: 0.25em;
@@ -3384,7 +3388,8 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 		transition: transform 0.5s ease, opacity 0.5s ease;
 		position: relative;
-		width: calc(33.33333% - 2.5em);
+		width: 20.5em;
+		height: 15em;
 		margin: 2.5em 0 0 2.5em;
 	}
 
@@ -3396,6 +3401,7 @@ input, select, textarea {
 			position: relative;
 			display: block;
 			width: 100%;
+			height: 15em;
 			border-radius: 4px;
 			overflow: hidden;
 		}
